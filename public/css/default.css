@@ -1,22 +1,25 @@
 body{
   font-family:arial,sans-serif;
-  font-size:100%;
+  /*font-size:100%;*/
   margin:1em;
-  background:#666;
+  /*background:#666;*/
   color:#fff;
+  background: linear-gradient(#ccc, #fff);
+  font: 14px sans-serif;
+  padding: 20px;
 }
-h2,p{
+.a4 h2,p{
   font-size:100%;
   font-weight:normal;
 }
-ul,li{
+.a4 ul,li{
   list-style:none;
 }
-ul{
+.a4 ul{
   overflow:hidden;
   padding:3em;
 }
-ul li a{
+.a4 ul li a{
   text-decoration:none;
   color:#000;
   background:#ffc;
@@ -31,25 +34,25 @@ ul li a{
   -o-transition:-o-transform .15s linear;
   -webkit-transition:-webkit-transform .15s linear;
 }
-ul li{
+.a4 ul li{
   margin:1em;
   float:left;
 }
-ul li h2{
+.a4 ul li h2{
   font-size:140%;
   font-weight:bold;
   padding-bottom:10px;
 }
-ul li p{
+.a4 ul li p{
   font-family:"Reenie Beanie",arial,sans-serif;
   font-size:180%;
 }
-ul li a{
+.a4 ul li a{
   -webkit-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   -moz-transform:rotate(-6deg);
 }
-ul li:nth-child(even) a{
+.a4 ul li:nth-child(even) a{
   -o-transform:rotate(4deg);
   -webkit-transform:rotate(4deg);
   -moz-transform:rotate(4deg);
@@ -57,7 +60,7 @@ ul li:nth-child(even) a{
   top:5px;
   background:#cfc;
 }
-ul li:nth-child(3n) a{
+.a4 ul li:nth-child(3n) a{
   -o-transform:rotate(-3deg);
   -webkit-transform:rotate(-3deg);
   -moz-transform:rotate(-3deg);
@@ -65,14 +68,14 @@ ul li:nth-child(3n) a{
   top:-5px;
   background:#ccf;
 }
-ul li:nth-child(5n) a{
+.a4 ul li:nth-child(5n) a{
   -o-transform:rotate(5deg);
   -webkit-transform:rotate(5deg);
   -moz-transform:rotate(5deg);
   position:relative;
   top:-10px;
 }
-ul li a:hover,ul li a:focus{
+.a4 ul li a:hover,ul li a:focus{
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
@@ -82,14 +85,15 @@ ul li a:hover,ul li a:focus{
   position:relative;
   z-index:5;
 }
-ol{text-align:center;}
-ol li{display:inline;padding-right:1em;}
-ol li a{color:#fff;}
-
-body {
-  background: linear-gradient(#ccc, #fff);
-  font: 14px sans-serif;
-  padding: 20px;
+.a4 ol {
+  text-align:center;
+}
+.a4 ol li {
+  display:inline;
+  padding-right:1em;
+}
+.a4 ol li a {
+  color:#fff;
 }
 .a4 {
   background: #fff;
@@ -101,13 +105,12 @@ body {
   position: relative;
   width: 80%;
 }
-.a4:before, .a4:after {
+/*.a4:before, .a4:after {
   content: "";
   height: 98%;
   position: absolute;
   width: 100%;
-
-
+}*/
 .a4:before {
   background: #fafafa;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
@@ -124,7 +127,100 @@ body {
 }
   z-index: -1;
 }
-#logo {
-  width: 304px;
-  height: 220px;
+body img#logo {
+  width: 100px;
+  height: 70px;
+}
+
+/*navbar:*/
+nav {
+  height: 60px;
+  margin-top: 15px;
+}
+nav div#navbar {
+  position: relative;
+  border: 4px solid #4a4a4a;
+  border-top: none;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 130px;
+  height: 60px;
+  transition-property: width;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+nav div#navbar:hover {
+  width: 90%;
+}
+
+nav div#navbar:hover li {
+    left: 0px;
+}
+
+nav p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  color: #006bb3;
+  padding-top: 22px;
+  padding-left: 7px;
+  height: 50px;
+  margin-top: -3px;
+}
+
+#inner {
+  display: block;
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -70px;
+  width: 700px;
+  height: 60px;
+  border: none;
+}
+
+#inner li {
+  position: relative;
+  left: 100px;
+  display: inline-block;
+  width: 120px;
+  padding: 0px 0px;
+  text-align: center;
+  margin: 12px 10px 0px 35px;
+  overflow: hidden;
+  border: none;
+}
+
+#inner li a {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000000;
+  padding: 7px 5px 7px 5px;
+  margin: 0px auto 0px;
+  border: 3px solid #4a4a4a;
+  border-top: none;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100px;
+  height: 20px;
+}
+
+#inner li a:hover {
+  color: #006bb3;
+  background-color: white;
+  border-color: #006bb3;
+}
+
+#inner li a#donate {
+    color: red;
 }
