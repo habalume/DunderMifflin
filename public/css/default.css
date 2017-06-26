@@ -134,7 +134,7 @@ body img#logo {
 
 /*navbar:*/
 nav {
-  height: 60px;
+  height: 40px;
   margin-top: 15px;
 }
 nav div#navbar {
@@ -147,14 +147,14 @@ nav div#navbar {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   width: 130px;
-  height: 60px;
+  height: 40px; /*was 60*/
   transition-property: width;
   transition-duration: 1s;
   overflow: hidden;
 }
 
 nav div#navbar:hover {
-  width: 90%;
+  width: 52%;
 }
 
 nav div#navbar:hover li {
@@ -166,9 +166,9 @@ nav p {
   font-size: 1.2em;
   font-weight: 100;
   color: #006bb3;
-  padding-top: 22px;
-  padding-left: 7px;
-  height: 50px;
+  padding-top: 13px;
+  padding-left: 12px; /*was 12*/
+  height: 35px; /*was 50*/
   margin-top: -3px;
 }
 
@@ -176,11 +176,11 @@ nav p {
   display: block;
   list-style-type: none;
   padding: 0px 0px 0px 0px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 20px; /*was auto*/
+  margin-left: 110px; /*was auto*/
   margin-top: -70px;
-  width: 700px;
-  height: 60px;
+  width: 600px;
+  height: 35px; /*was 50*/
   border: none;
 }
 
@@ -191,7 +191,7 @@ nav p {
   width: 120px;
   padding: 0px 0px;
   text-align: center;
-  margin: 12px 10px 0px 35px;
+  margin: 12px 10px 0px 10px;
   overflow: hidden;
   border: none;
 }
@@ -199,10 +199,10 @@ nav p {
 #inner li a {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   text-decoration: none;
   color: #000000;
-  padding: 7px 5px 7px 5px;
+  padding: 7px 1px 7px 1px;
   margin: 0px auto 0px;
   border: 3px solid #4a4a4a;
   border-top: none;
@@ -221,6 +221,6 @@ nav p {
   border-color: #006bb3;
 }
 
-#inner li a#donate {
+#inner li a#ordering {
     color: red;
 }
