@@ -1,8 +1,9 @@
 require 'sinatra'
+
 # using SendGrid's Ruby Library
 # https://github.com/sendgrid/sendgrid-ruby
 require 'sendgrid-ruby'
-include SendGrid
+
 
 get '/' do
 	erb :home
