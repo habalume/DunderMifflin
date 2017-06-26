@@ -1,9 +1,7 @@
 body{
   font-family:arial,sans-serif;
-  /*font-size:100%;*/
   margin:1em;
-  /*background:#666;*/
-  color:#fff;
+  color: black;
   background: linear-gradient(#ccc, #fff);
   font: 14px sans-serif;
   padding: 20px;
@@ -92,9 +90,6 @@ body{
   display:inline;
   padding-right:1em;
 }
-.a4 ol li a {
-  color:#fff;
-}
 .a4 {
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -127,9 +122,11 @@ body{
 }
   z-index: -1;
 }
+
 body img#logo {
-  width: 100px;
-  height: 70px;
+  margin-bottom: 20px;
+  /*width: 304px;
+  height: 228px;*/
 }
 
 /*navbar:*/
@@ -147,7 +144,7 @@ nav div#navbar {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   width: 130px;
-  height: 40px; /*was 60*/
+  height: 40px;
   transition-property: width;
   transition-duration: 1s;
   overflow: hidden;
@@ -167,8 +164,8 @@ nav p {
   font-weight: 100;
   color: #006bb3;
   padding-top: 13px;
-  padding-left: 12px; /*was 12*/
-  height: 35px; /*was 50*/
+  padding-left: 12px;
+  height: 35px;
   margin-top: -3px;
 }
 
@@ -180,7 +177,7 @@ nav p {
   margin-left: 110px; /*was auto*/
   margin-top: -70px;
   width: 600px;
-  height: 35px; /*was 50*/
+  height: 35px;
   border: none;
 }
 
@@ -223,4 +220,24 @@ nav p {
 
 #inner li a#ordering {
     color: red;
+}
+/*end of navbar*/
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*ordering form:*/
+#form {
+  text-align: center;
+  margin: auto;
+  width: 850px;
+  height: 470px;
+  border: 3px double black;
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
 }
