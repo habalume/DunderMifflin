@@ -133,6 +133,7 @@ body img#logo {
 nav {
   height: 40px;
   margin-top: 15px;
+  clear: left;
 }
 nav div#navbar {
   position: relative;
@@ -234,10 +235,25 @@ h1 {
   margin: auto;
   width: 850px;
   height: 470px;
-  border: 3px double black;
+  border: 3px double #4d4d4d;
 }
 
 h4 {
   font-size: 22px;
   margin-bottom: 15px;
+}
+
+#logo, #slogan {
+  float: left;
+}
+
+#slogan {
+  width: 980px;
+  height: 110px;
+  padding-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 55px;
 }
