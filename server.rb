@@ -26,8 +26,8 @@ post '/contact' do
 	p params
 	from = Email.new(email: params[:email])
 	# hard code, make NEW address
-	to = Email.new(email: 'katyp03@gmail.com')
-	subject = params[:title]
+	to = Email.new(email: 'katypola03@yahoo.com')
+	subject = params[:subject]
 	content = Content.new(type: 'text/plain', value: params[:body])
 	mail = Mail.new(from, subject, to, content)
 
