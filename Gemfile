@@ -2,5 +2,5 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sendgrid-ruby'
-gem 'jason'
+gem 'json'
 gem 'ruby_http_client'
