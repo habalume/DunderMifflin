@@ -1,10 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    erubis (2.7.0)
+    jason (0.6.0)
+      erubis
     mustermann (1.0.0)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
+    ruby_http_client (3.1.0)
+    sendgrid-ruby (5.0.0)
+      ruby_http_client (~> 3.0)
+      sinatra (>= 1.4.7, < 3)
     sinatra (2.0.0)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -16,6 +23,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jason
+  ruby_http_client
+  sendgrid-ruby
   sinatra
 
 BUNDLED WITH
