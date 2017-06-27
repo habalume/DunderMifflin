@@ -293,3 +293,8 @@ form {
 span {
   font-family: Verdana;
 }
+
+iframe.giphy-embed {
+  margin-left: 400px;
+  border: 1px solid black;
+}
