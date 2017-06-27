@@ -6,6 +6,8 @@ body{
   font: 14px sans-serif;
   padding: 20px;
 }
+
+/*overlay Gallery*/
 .container {
   position: relative;
   width: 100%;
@@ -56,6 +58,7 @@ body{
     width: 25%;
     padding: 20px;
 }
+/*end of Gallery*/
 
 body img#logo {
   margin-bottom: 20px;
@@ -310,12 +313,7 @@ iframe.giphy-embed {
 }
 
 /*notes css*/
-/*body{
-  font-family:arial,sans-serif;
-  font-size:100%;
-  margin:1em;
-  background:#666;
-  color:#fff;*/
+
 }
 h2,p{
   font-size:100%;
@@ -329,13 +327,14 @@ ul.notes {
 }
 .notes{
   overflow:hidden;
-  padding:3em;
+  padding:1em;
+
 }
 .notes li a{
   text-decoration:none;
   color:#000;
   background:#ffc;
-  display:block;
+  display:inline-block;
   height:10em;
   width:10em;
   padding:1em;
