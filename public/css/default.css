@@ -6,106 +6,68 @@ body{
   font: 14px sans-serif;
   padding: 20px;
 }
-.a4 h2,p{
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0.75;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  width: 15em;
+  text-align: left;
+  white-space: break-word; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.floatdiv {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+/*a.4*/h2,p{
   font-size:100%;
   font-weight:normal;
 }
-.a4 ul,li{
+/*a.4*/ul,li{
   list-style:none;
 }
-.a4 ul{
+/*a.4*/ul{
   overflow:hidden;
   padding:3em;
 }
-.a4 ul li a{
-  text-decoration:none;
-  color:#000;
-  background:#ffc;
-  display:block;
-  height:10em;
-  width:10em;
-  padding:1em;
-  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
-  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-  -moz-transition:-moz-transform .15s linear;
-  -o-transition:-o-transform .15s linear;
-  -webkit-transition:-webkit-transform .15s linear;
-}
-.a4 ul li{
-  margin:1em;
-  float:left;
-}
-.a4 ul li h2{
-  font-size:140%;
-  font-weight:bold;
-  padding-bottom:10px;
-}
-.a4 ul li p{
-  font-family:"Reenie Beanie",arial,sans-serif;
-  font-size:180%;
-}
-.a4 ul li a{
-  -webkit-transform: rotate(-6deg);
-  -o-transform: rotate(-6deg);
-  -moz-transform:rotate(-6deg);
-}
-.a4 ul li:nth-child(even) a{
-  -o-transform:rotate(4deg);
-  -webkit-transform:rotate(4deg);
-  -moz-transform:rotate(4deg);
-  position:relative;
-  top:5px;
-  background:#cfc;
-}
-.a4 ul li:nth-child(3n) a{
-  -o-transform:rotate(-3deg);
-  -webkit-transform:rotate(-3deg);
-  -moz-transform:rotate(-3deg);
-  position:relative;
-  top:-5px;
-  background:#ccf;
-}
-.a4 ul li:nth-child(5n) a{
-  -o-transform:rotate(5deg);
-  -webkit-transform:rotate(5deg);
-  -moz-transform:rotate(5deg);
-  position:relative;
-  top:-10px;
-}
-.a4 ul li a:hover,ul li a:focus{
-  box-shadow:10px 10px 7px rgba(0,0,0,.7);
-  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
-  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  -o-transform: scale(1.25);
-  position:relative;
-  z-index:5;
-}
-.a4 ol {
-  text-align:center;
-}
-.a4 ol li {
-  display:inline;
-  padding-right:1em;
-}
-.a4 {
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  margin: 26px auto 0;
-  max-width: 700px;
-  min-height: 500px;
-  padding: 24px;
-  position: relative;
-  width: 80%;
-}
-/*.a4:before, .a4:after {
-  content: "";
-  height: 98%;
-  position: absolute;
-  width: 100%;
-}*/
+
+
+
 .a4:before {
   background: #fafafa;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
@@ -257,3 +219,4 @@ h4 {
   padding-bottom: 30px;
   font-size: 55px;
 }
+
