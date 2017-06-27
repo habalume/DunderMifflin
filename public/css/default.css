@@ -185,8 +185,9 @@ form #name {
 }
 
 h4 {
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-family: 'Inconsolata', monospace;
 }
 
 #logo, #slogan {
@@ -223,15 +224,41 @@ h4 {
   resize: none;
 }
 
-#buy {
+.bubble {
   font-family: 'Dosis', sans-serif;
   font-size: 40px;
   width: 500px;
   height: 80px;
   background: rgba(255, 255, 255, 0.4);
+  box-shadow: 3px 5px 3px 2px #808080;
   padding-top: 20px;
-  border-radius: 25px;
+  border-radius: 120px;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 40px;
+}
+
+#buy {
+  width: 480px;
+}
+
+#contact {
+  width: 300px;
+}
+
+#disclaimer {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Verdana;
+}
+
+form {
+  background: linear-gradient(#1a1aff, #d9d9d9);
+}
+
+span {
+  font-family: Verdana;
 }
