@@ -1,0 +1,1 @@
+document.getElementById("note").onmousemove = function(event) {displayimage(event)};
