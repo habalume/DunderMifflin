@@ -186,6 +186,7 @@ h1 {
   margin-top: 5px;
   font-size: 18px;
   line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
 }
 
 .padTop {
@@ -202,13 +203,24 @@ h1 {
 
 #sabrePics img {
   float: left;
-  padding-left: 180px;
+  padding-left: 100px;
   height: 120px;
 }
 
-/*#sabrePics #robert {
-  margin-left: 200px;
-}*/
+#sabrePics img#robert {
+  margin-left: 160px;
+}
+
+#paper {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#paperPic {
+  width: 180px;
+  margin: auto;
+}
 
 /*ordering form:*/
 #form, #contactForm {
