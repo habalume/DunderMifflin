@@ -96,7 +96,7 @@ nav p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   font-weight: 100;
-  color: #006bb3;
+  color: #1a1aff;
   padding-top: 13px;
   padding-left: 12px;
   height: 35px;
@@ -147,9 +147,10 @@ nav p {
 }
 
 #inner li a:hover {
-  color: #006bb3;
+  color: #1a1aff;
   background-color: white;
-  border-color: #006bb3;
+  border-color: #0000b3;
+  font-size: 1.2em;
 }
 
 #inner li a#ordering {
@@ -160,6 +161,36 @@ nav p {
 h1 {
   text-align: center;
   margin-bottom: 30px;
+}
+
+.homeDivs {
+  background: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.homeHeaders {
+  font-family: 'Dosis', sans-serif;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 40px;
+  margin-left: 60px;
+}
+
+.homeText {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.padTop {
+  padding-top: 40px;
+}
+
+.padBottom {
+  padding-bottom: 40px;
 }
 
 /*ordering form:*/
@@ -209,7 +240,7 @@ h4 {
   font-family: 'Inconsolata', monospace;
   width: 75%;
   height: 60px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   box-shadow: 10px 10px 5px #808080;
   padding-top: 32px;
   padding-bottom: 30px;
