@@ -58,6 +58,12 @@ body{
     width: 25%;
     padding: 20px;
 }
+
+.floatdiv p {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
 /*end of Gallery*/
 
 body img#logo {
