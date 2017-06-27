@@ -107,8 +107,8 @@ nav p {
   display: block;
   list-style-type: none;
   padding: 0px 0px 0px 0px;
-  margin-right: 20px; /*was auto*/
-  margin-left: 110px; /*was auto*/
+  margin-right: 20px;
+  margin-left: 110px;
   margin-top: -70px;
   width: 600px;
   height: 35px;
@@ -229,13 +229,6 @@ h4 {
 }
 
 #slogan {
-  /*width: 75%;
-  height: 110px;*/
-  /*margin-left: 80px; was padding-left: 80px;
-  margin-top: 10px;*/
-  /*margin-bottom: 5px;*/
-  /*padding-top: 30px;*/
-  /*padding-bottom: 30px;*/
   font-size: 3.5em;
   font-family: 'Inconsolata', monospace;
   width: 75%;
@@ -301,6 +294,7 @@ iframe.giphy-embed {
   margin-left: 400px;
   border: 1px solid black;
 }
+
 /*notes css*/
 /*body{
   font-family:arial,sans-serif;
