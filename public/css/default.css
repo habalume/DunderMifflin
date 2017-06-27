@@ -160,15 +160,27 @@ h1 {
 }
 
 /*ordering form:*/
-#form {
+#form, #contactForm {
   text-align: center;
   margin: auto;
-  width: 850px;
-  height: 460px;
   border: 3px double #4d4d4d;
 }
 
-#form #name {
+#form {
+  width: 850px;
+  height: 460px;
+}
+
+#contactForm {
+  width: 600px;
+  height: 460px;
+}
+
+#contactForm h4 {
+  margin-top: 25px;
+}
+
+form #name {
   margin-top: 20px;
 }
 
@@ -182,13 +194,44 @@ h4 {
 }
 
 #slogan {
-  width: 70%;
-  height: 110px;
-  padding-left: 100px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  padding-top: 30px;
+  /*width: 75%;
+  height: 110px;*/
+  /*margin-left: 80px; was padding-left: 80px;
+  margin-top: 10px;*/
+  /*margin-bottom: 5px;*/
+  /*padding-top: 30px;*/
+  /*padding-bottom: 30px;*/
+  font-size: 3.9em;
+  font-family: 'Inconsolata', monospace;
+  width: 75%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 10px 10px 5px #808080;
+  padding-top: 32px;
   padding-bottom: 30px;
-  font-size: 4.2em;
+  padding-left: 40px;
+  border-radius: 50px;
+  margin: auto;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
+#commentBox {
+  width: 400px;
+  height: 130px;
+  resize: none;
+}
+
+#buy {
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  width: 500px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.4);
+  padding-top: 20px;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
