@@ -88,7 +88,7 @@ nav div#navbar {
 }
 
 nav div#navbar:hover {
-  width: 52%;
+  width: 700px;
 }
 
 nav div#navbar:hover li {
@@ -346,7 +346,7 @@ ul.notes {
   -webkit-transition:-webkit-transform .15s linear;
 }
 .notes li{
-  margin:1em;
+  margin:60p;
   float:left;
 }
 .notes li h2{
@@ -401,3 +401,6 @@ ul.notes {
 ol{text-align:center;}
 ol li{display:inline;padding-right:1em;}
 ol li a{color:#fff;}
+.notemargin{
+  margin-left: 100px;
+}
