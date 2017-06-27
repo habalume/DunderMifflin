@@ -2,7 +2,7 @@
 <!-- TO DO: Pricing info -->
 
 <h1 id="buy" class="bubble">Let's buy some paper!*</h1>
-<form id="form">
+<form id="form" method="post">
 	<h4 id="name">Your Name:</h4>
 	<input type="text" name="name" placeholder="Name" />
 	<h4>Enter Email Here (for order confirmation only):</h4>
@@ -14,6 +14,6 @@
   	<input type="radio" name="shipping" value="2ndday"> <span>2nd Day Air ($12 per case)</span><br />
   	<input type="radio" name="shipping" value="3-5day"> <span>3-5 Business Days ($8 per case)</span><br />
   	<input type="radio" name="shipping" value="ground"> <span>Ground (7-10 Business Days, $5 per case)</span>
-	<br /><br /><button type="button" name ="button" id="submitOrder">Submit</button>
+	<br /><br /><input type="submit" id="submitOrder" />
 </form>
 <br /><p id="disclaimer"><strong>*Disclaimer:</strong> Schrutebucks not accepted as valid payment.  Only real money.  Stop giving people Schrutebucks, Dwight.</p>
