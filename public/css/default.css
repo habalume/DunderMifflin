@@ -58,6 +58,12 @@ body{
     width: 25%;
     padding: 20px;
 }
+
+.floatdiv p {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
 /*end of Gallery*/
 
 body img#logo {
@@ -186,6 +192,7 @@ h1 {
   margin-top: 5px;
   font-size: 18px;
   line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
 }
 
 .padTop {
@@ -202,13 +209,24 @@ h1 {
 
 #sabrePics img {
   float: left;
-  padding-left: 180px;
+  padding-left: 100px;
   height: 120px;
 }
 
-/*#sabrePics #robert {
-  margin-left: 200px;
-}*/
+#sabrePics img#robert {
+  margin-left: 160px;
+}
+
+#paper {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#paperPic {
+  width: 180px;
+  margin: auto;
+}
 
 /*ordering form:*/
 #form, #contactForm {
@@ -346,17 +364,14 @@ ul.notes {
   -webkit-transition:-webkit-transform .15s linear;
 }
 .notes li{
-  margin:60p;
+  margin:60px;
   float:left;
 }
-.notes li h2{
-  font-size:140%;
-  font-weight:bold;
-  padding-bottom:10px;
+
 }
 .notes li p{
   font-family: 'Shadows Into Light', cursive;
-  font-size:100%;
+  font-size:120%;
   white-space: break-word;
   overflow: none;
 }
