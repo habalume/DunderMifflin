@@ -377,7 +377,7 @@ ul.notes {
   -webkit-transition:-webkit-transform .15s linear;
 }
 .notes li{
-  margin:40px;
+  margin:20px;
   float:left;
 }
 .notes li p{
