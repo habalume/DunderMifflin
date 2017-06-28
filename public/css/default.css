@@ -228,6 +228,18 @@ h1 {
   margin: auto;
 }
 
+#group {
+  width: 610px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#groupPic {
+  width: 600px;
+  margin: auto;
+}
+
 /*ordering form:*/
 #form, #contactForm {
   text-align: center;
@@ -237,12 +249,12 @@ h1 {
 
 #form {
   width: 850px;
-  height: 460px;
+  height: 590px;
 }
 
 #contactForm {
   width: 600px;
-  height: 460px;
+  height: 570px;
 }
 
 #contactForm h4 {
@@ -291,7 +303,7 @@ h4 {
   font-size: 40px;
   width: 500px;
   height: 80px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   box-shadow: 3px 5px 3px 2px #808080;
   padding-top: 20px;
   border-radius: 120px;
